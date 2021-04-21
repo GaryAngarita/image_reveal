@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>></script>
+    <title>Reveal the image!</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <script>
+        $(document).ready(function(){
+            console.log("Document is Ready!")
+
+            $
+
+        })
+
+
+    </script>
+</head>
+<body>
+    <h1>Select the right answer!</h1>
+    <form action="/process_answer" method="POST" class="question">
+        {% csrf_token %}
+        
+
+    </form>
+    
+</body>
+</html>
